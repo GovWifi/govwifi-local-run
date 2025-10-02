@@ -13,7 +13,9 @@ Currently this runs the User Sign-up API, Authentication API and User DB locally
 Set Up
 ------
 
-..image:: ./assets/rought-system-parts.png
+.. image:: ./assets/rought-system-parts.png
+  :alt: Camielle's rough system diagram
+  :align: center
 
 Symlink in the govwifi-authentication-api, govwifi-user-signup-api into the
 checkout directory. These are ignored in the .gitignore file.::
