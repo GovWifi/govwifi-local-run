@@ -13,6 +13,8 @@ Currently this runs the User Sign-up API, Authentication API and User DB locally
 Set Up
 ------
 
+..image:: ./assets/rought-system-parts.png
+
 Symlink in the govwifi-authentication-api, govwifi-user-signup-api into the
 checkout directory. These are ignored in the .gitignore file.::
 
@@ -25,7 +27,8 @@ for this process to work.
 Running
 -------
 
-::
+Getting all the parts built and running you do::
+
     # build the images and cache the steps
     make build
 
@@ -35,6 +38,7 @@ Running
     # run all the services
     make serve
 
+
 Link / Address available on the host machine:
 
  - User DB localhost:3306
@@ -42,7 +46,13 @@ Link / Address available on the host machine:
  - Authentication API http://localhost:9080
 
 
-Create a user
+Create a test user
+------------------
 
+How to create an initial user that we can then test with...
 
-curl -X -d '{"source_number":"07100200300","destination_number":""}'
+::
+
+    # TBD
+    #
+    curl -X -d '{"source_number":"07100200300","destination_number":""}'
